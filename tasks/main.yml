@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  vars:
+    old_variable: 'Hello world'
+    new_variable: 'hello again'
+  tasks:
+    - name: Ansible Template Example
+      template:
+        src: old_file.j2
+        dest: /tmp/new_file.conf
