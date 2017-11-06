@@ -1,0 +1,4 @@
+---
+# vars file for bindu
+old_variable: bindu Test
+new_variable: bindu test new new_variable
